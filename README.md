@@ -9,3 +9,5 @@
 - push branch `master` and set up branch it to track remote branch `master` from `origin`: `$ git push -u origin master`
 - create new branch: `$ git branch <new-branch>`
 - create new branch based on commit, tag or another branch: `$ git branch <new-branch> <base-branch>`
+- clean git directory: `git clean -d -x -f`
+  or dry run to look what is going to be deleted: `git clean -d -x -n`
